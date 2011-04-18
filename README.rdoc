@@ -3,8 +3,8 @@
 A simple consumption of the Google Maps JavaScript API V3 with Ruby on Rails 3. I couldn't find many tutorials on how to get this done so I made my own.
 
 The following Gems are needed/recommended:
-*jquery-rails (to get jquery bundled with rails https://github.com/indirect/jquery-rails )
-*geokit (for getting GPS coordinates from address https://github.com/andre/geokit-gem )
+* jquery-rails (to get jquery bundled with rails https://github.com/indirect/jquery-rails run rails generate jquery:install to get jquery in your app)
+* geokit (for getting GPS coordinates from address https://github.com/andre/geokit-gem )
 
 To use, run:
   bundle install
