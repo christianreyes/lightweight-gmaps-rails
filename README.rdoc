@@ -2,10 +2,22 @@
 
 A simple consumption of the Google Maps JavaScript API V3 with Ruby on Rails 3. I couldn't find many tutorials on how to get this done so I made my own.
 
+The following Gems are needed/recommended:
+*jquery-rails (to get jquery bundled with rails https://github.com/indirect/jquery-rails )
+*geokit (for getting GPS coordinates from address https://github.com/andre/geokit-gem )
+
 To use, run:
+  bundle install
+  
   rails server
 
-Then navigate to http://127.0.0.1:3000/ (or whatever is your local host/development server) and add on ?latitude=NUMBER_HERE&longitude=NUMBER_HERE&zoom=NUMBER_HERE
+Then navigate to http://127.0.0.1:3000 (or whatever is your local host/development server) and add on any of the following parameters:
+* place= (note: place will be used instead of latitude and longitude if present. On failure it defaults to Carnegie Mellon)
+* latitude=
+* longitude=
+* zoom=
 
 For instance, to get the map centered on the statue of liberty, navigate to:
+  http://127.0.0.1:3000/?place=Statue of Liberty
+or:
   http://127.0.0.1:3000/?latitude=40.6892&longitude=-74.0444
