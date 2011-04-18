@@ -21,3 +21,7 @@ For instance, to get the map centered on the statue of liberty, navigate to:
   http://127.0.0.1:3000/?place=Statue of Liberty
 or:
   http://127.0.0.1:3000/?latitude=40.6892&longitude=-74.0444
+
+== Google Maps Javascript API V3
+  
+Code adapted from: http://code.google.com/apis/maps/documentation/javascript/tutorial.html
