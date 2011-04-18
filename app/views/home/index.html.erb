@@ -9,6 +9,15 @@
 				mapTypeId: google.maps.MapTypeId.ROADMAP
 			};
 			var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+			marker = new google.maps.Marker({
+				map:map,
+				draggable:false,
+				animation: google.maps.Animation.DROP,
+				position: latlng
+				<% if @place %>
+					,title:"<%= @place %>"
+				<% end %>
+			});
 		}
 	<% end %>
 <% end %>

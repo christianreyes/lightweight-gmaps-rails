@@ -13,6 +13,7 @@ class HomeController < ApplicationController
 		if cords
 			@latitude = cords[0]
 			@longitude = cords[1]
+			@place = params[:place]
 		else
 			@latitude = 25.315981290
 			@longitude = 51.438674926
