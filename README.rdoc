@@ -3,9 +3,9 @@
 A simple consumption of the Google Maps JavaScript API V3 with Ruby on Rails 3. I couldn't find many tutorials on how to get this done so I made my own.
 
 To use, run:
-	rails server
+  rails server
 
 Then navigate to http://127.0.0.1:3000/ (or whatever is your local host/development server) and add on ?latitude=NUMBER_HERE&longitude=NUMBER_HERE&zoom=NUMBER_HERE
 
 For instance, to get the map centered on the statue of liberty, navigate to:
-	http://127.0.0.1:3000/?latitude=40.6892&longitude=-74.0444
+  http://127.0.0.1:3000/?latitude=40.6892&longitude=-74.0444
